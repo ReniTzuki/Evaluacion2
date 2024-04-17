@@ -1,0 +1,176 @@
+
+.fondo{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.Hero{
+    background-image: url("Elementos/imagen3.jpg_large");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.titulo{
+    color: white;
+    margin: 15%;
+    text-align: center;
+    font-size: 50px;
+    height: 900px;
+}
+.caja{
+    width: 500px;
+    margin: 2%;
+    padding: 120px ;
+    
+}
+.texto{
+    color: white;
+    height: 90px;
+    font-size: 17px;
+
+    
+
+}
+
+.imagen1{
+    width: 600px;
+    height: 400px;
+}
+
+
+
+.texto2{
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.nav{
+    list-style-type: none;
+    background-color: rgb(54, 66, 66);
+    width: 100%;
+    position: fixed;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    color: white;
+    padding: 20px 16px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.contenedor {
+    width: 90%;
+    margin: auto;
+    padding: 80px ;
+}
+
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 3px 0 black;
+    border-radius: 8px;
+    background-color: rgba(64, 69, 73, 0.707);
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 0 black;
+    transform: scale(1.1);
+    cursor: auto;
+}
+
+.card2 {
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 3px 0 black;
+    border-radius: 10px;
+    background-color: rgba(70, 60, 60, 0.707);
+}
+
+
+.contenedor2 {
+    
+ 
+    padding: 50px ;
+    justify-content: center;
+    width: 90%;
+    margin: 8%;
+
+}
+
+.contenedor-imagen {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contenedor-imagen img {
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 35px;
+    display: block;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor3 {
+    
+ 
+    padding: 50px ;
+    justify-content: center;
+    width: 90%;
+    margin: 1%;
+
+}
+
+.texto3{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+.texto4{
+    color: white;
+    background-color: rgb(66, 63, 63);
+    height: 100%;
+
+}
+
+.boton{
+    background-color: rgb(15, 17, 19);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 50px;
+
+}
+.boton:hover{
+    background-color: white;
+    color: black;
+
+}
+.textoboton{
+    text-decoration: none;
+}
